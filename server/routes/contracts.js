@@ -13,10 +13,10 @@ router.post("/", createContract);
 
 // //UPDATE
 // router.put("/:id", verifyAdmin, updateHotel);
-router.put("/:id",verifyAdmin, updateContract);
+router.put("/:id", updateContract);
 
 // // //DELETE
-router.delete("/:id",verifyAdmin, deleteContractbyid);
+router.delete("/:id", deleteContractbyid);
 // router.delete("/:id", verifyAdmin, deleteHotel);
 // // //GET
 router.get("/getseviserbyid/:id", getseviserbyid);
